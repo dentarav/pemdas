@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class pencatatpengeluaran {
-    private static String[] jenis = {"Konsumsi", "Perjalanan", "Kesehatan", "Hiburan"};
-    private static double[] pengeluaran = new double[jenis.length]; 
+    public static String[] jenis = {"Konsumsi", "Perjalanan", "Kesehatan", "Hiburan"};
+    public static double[] pengeluaran = new double[jenis.length]; 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int pilih;
