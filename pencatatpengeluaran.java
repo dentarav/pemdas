@@ -7,7 +7,7 @@ public class pencatatpengeluaran {
         Scanner input = new Scanner(System.in);
         int pilih;
         do {
-            System.out.println("=== Aplikasi Pencatatan Pengeluaran ===");
+            System.out.println("=== Aplikasi Pencatat Pengeluaran ===");
             System.out.println("1. Tambah Pengeluaran");
             System.out.println("2. Tampilkan Rincian Pengeluaran");
             System.out.println("3. Keluar");
