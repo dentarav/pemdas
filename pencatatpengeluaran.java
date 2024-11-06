@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class pencatatpengeluaran {
-    public static String[] jenis = {"Konsumsi", "Perjalanan", "Kesehatan", "Hiburan"};
+    public static String[] jenis = {"Konsumsi", "Perjalanan", "Kesehatan", "Hiburan", "Lain-Lain"};
     public static double[] pengeluaran = new double[jenis.length]; 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
